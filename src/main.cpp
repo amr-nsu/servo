@@ -30,9 +30,9 @@ public:
 
 private:
     Servo servo_;
-    double position_;
-    double position_ref_;
-    double time_;  // us
+    double position_;       // us
+    double position_ref_;   // us
+    double time_;           // ms
 
 };
 
@@ -93,4 +93,3 @@ void loop()
     }
     motorLoop();
 }
-
